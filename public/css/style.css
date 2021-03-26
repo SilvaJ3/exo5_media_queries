@@ -1,0 +1,56 @@
+.square1 {
+    height: 100px;
+}
+
+.square2 {
+    height: 100px;
+}
+
+.square3 {
+    height: 100px;
+}
+
+@media screen and (min-width: 1024px) {
+    div {
+        width: 33%;
+    }
+    .square1{
+    background-color: red;
+    }
+    .square2{
+        background-color: green;
+    }
+    .square3{
+        background-color: orange;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    div {
+        width: 50%;
+    }
+    .square1{
+    background-color: red;
+    }
+    .square2{
+        background-color: green;
+    }
+    .square3{
+        background-color: orange;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+    div {
+        width: 100%;
+    }
+    .square1{
+    background-color: red;
+    }
+    .square2{
+        background-color: green;
+    }
+    .square3{
+        background-color: orange;
+    }
+}
